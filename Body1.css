@@ -96,7 +96,7 @@
     vertical-align: middle;
 }
 
-button{
+.Store_Inner_Information button{
     position: absolute;
     top: 0;
     right: 60px;
@@ -109,7 +109,7 @@ button{
     color: #F18700;
 }
 
-button:hover{
+.Store_Inner_Information button:hover{
     background-color: #F18700;
     border: 1px solid #F18700;
     font-weight: bold;

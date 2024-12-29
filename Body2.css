@@ -1,0 +1,72 @@
+.Body2 {
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.Body2_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Body2_Header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Body2_Header button {
+    width: 150px;
+    height: 50px;
+    background-color: #F18700;
+    border: 1px solid #F18700;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Body2_Header button:hover {
+    background-color: #e07600;
+}
+
+.Review_Result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.Review_Header {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.Review_Header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Reviewer_Name {
+    font-weight: bold;
+    margin: 0; 
+}
+
+.Review_Text {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.divider2 {
+    width: 1080px; 
+    border: 1px solid #F5F6F6;
+    margin: 20px 0; 
+}
