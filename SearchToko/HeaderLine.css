@@ -1,0 +1,39 @@
+.HeaderLine{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.inner_HeaderLine_Column{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.inner_HeaderLine_Row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.inner_HeaderLine_Row img{
+    width: 20px;
+    height: 19px;
+}
+
+.inner_HeaderLine_Row a {
+    text-decoration: none;
+    font-size: 16px;
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+    color: #B2B2B2; 
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Line{
+    width: 1080px;
+    height: 1px;
+    background-color: rgb(0, 0, 0, 10%);
+}

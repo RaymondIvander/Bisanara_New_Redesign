@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BISANARA - Result</title>
+    <link rel="stylesheet" href="/Full_Function/Header.css">
+    <link rel="stylesheet" href="/Full_Function/login.css">
+    <link rel="stylesheet" href="/Full_Function/footer.css">
+    <link rel="stylesheet" href="/SearchProduct/HeaderLine.css">
+    <link rel="stylesheet" href="/SearchProduct/body1.css">
+    <link rel="stylesheet" href="/SearchProduct/OuterLineProduct.css">
+</head>
+
+<style>
+    *::-webkit-scrollbar{
+        display: none;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <a href="/MainPage/mainPage.html">
+                <img src="/Assets/slide_2-removebg-preview.png" alt="logoBisanara">
+            </a>
+        </div>
+        <div class="label"><div class="textWrapper">Search</div></div>
+        <div class="searchBar">
+            <img src="/Assets/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector-removebg-preview.png" alt="icon" class="icon">
+            <input type="search" placeholder="Cari di BISANARA">
+        </div>
+        <button class="loginButton" id="loginButton"><div class="text-wrapper">LOGIN</div></button>
+    </div>
+
+    <!-- POPUP LOGIN -->
+    <div class="overlay" id="overlay"></div>
+    <div class="popup-login" id="popupLogin">
+        <div class="popup-header">
+            <h2 class="header-title">Masuk</h2>
+            <p class="student-only">Binusian Student Only</p>
+            <a href="/SearchProduct/SearchProduct.html" class="close-btn">
+                <img src="/Assets/pngtree-vector-cross-icon-png-image_925896-removebg-preview.png" alt="close">
+            </a>
+        </div>
+        <div class="popup-body">
+            <label for="username">Binusian Email</label>
+            <input type="text" id="username" placeholder="Masukkan email">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Masukkan password">
+        </div>
+        <div class="popup-footer">
+            <button id="submitLogin">Login</button>
+        </div>
+    </div>
+
+    <!-- HeaderLine -->
+    <div class="HeaderLine">
+        <div class="inner_HeaderLine_Column">
+            <div class="inner_HeaderLine_Row">
+                <a href="/SearchProduct/SearchProduct.html" style="color: #0097DA;">
+                    <img src="/Assets/image-removebg-preview (3).png" alt="VectorImage">
+                    Product
+                </a>
+                <a href="/SearchToko/SearchToko.html">
+                    <img src="/Assets/2697432.png" alt="VectorImage">
+                    Toko
+                </a>
+            </div>
+            <div class="Line"></div>
+        </div>
+    </div>
+
+    <!-- OuterLineProduct -->
+    <div class="OuterLineProduct">
+        <p>Menampilkan 1 - 15 Barang dari total untuk <span class="infohighlight">"Pet Application"</span></p>
+        <div class="filtering">
+            <p>Urutkan</p>
+            <select name="filter" id="filter">
+                <option value="filter1">Paling Sesuai</option>
+                <option value="filter1">Ulasan</option>
+                <option value="filter1">Terbaru</option>
+                <option value="filter1">Harga Tertinggi</option>
+                <option value="filter1">Harga Terendah</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Body1 -->
+    <div class="Body1">
+        <div class="inner_body1_Column">
+            <div class="inner_body1_row">
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg"alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg"alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+            </div>
+            <div class="inner_body1_row">
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg"alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg"alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+            </div>
+            <div class="inner_body1_row">
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg"alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg" alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+                <div class="card">
+                    <img src="/Assets/1716977077_logo Petcare.jpg"alt="PetCare">
+                    <h3>PetCare</h3>
+                    <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                    <p class="info">PetCareApplication</p>
+                    <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="left-container">
+            <div class="bisanara">
+                <h3>Bisanara</h3>
+                <p><a href="">Tentang Bisanara</a></p>
+                <p><a href="">Hak Kekayaan Intelektual</a></p>
+                <p><a href="">Kontributor</a></p>
+                <p><a href="">Batasan Tangung Jawab</a></p>
+            </div>
+            <div class="produkbantuan">
+                <h3>Produk</h3>
+                <p><a href="">Produk</a></p>
+                <p><a href="/CategoryPage/category.html">Kategori</a></p>
+                <h3>Bantuan dan Panduan</h3>
+                <p><a href="">Bantuan</a></p>
+                <p><a href="">Kebijakan Privasi</a></p>
+            </div>
+        </div>
+        <div class="right-container">
+            <img src="/Assets/slide 2.png" alt="logoBisanara">
+        </div>
+    </footer>
+    
+</body>
+<script src="/Full_Function/login.js"></script>
+</html>

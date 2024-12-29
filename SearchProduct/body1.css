@@ -1,0 +1,49 @@
+.Body1{
+    margin: 20px 0;
+}
+
+.inner_body1_Column{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.inner_body1_row{
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+}
+
+.card{
+    width: 185px;
+    height: 260px;
+    cursor: pointer;
+}
+
+.card img{
+    width: 183px;
+    height: 165px;
+    object-fit: cover;
+}
+
+.card h3{
+    font-size: 14px;
+    margin: 0 0 5px 0;
+    font-weight: lighter;
+}
+
+.card p{
+    margin: 0 0 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card .highlight{
+    color: red;
+}
+
+.card .info{
+    margin: 0 0 5px 0;
+    font-size: 12px;
+    color: #5B5B5B;
+}

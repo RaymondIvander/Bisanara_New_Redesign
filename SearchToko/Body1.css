@@ -1,0 +1,92 @@
+.Body1{
+    width: 100%;
+    max-width: 1080px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-bottom: 30px;
+}
+
+.inner_body1_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner_body1_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0, 15%) ;
+    border-radius: 15px;
+}
+
+.card_header{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.header_information h1{
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+.card_header img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.header_information{
+    display: flex;
+    flex-direction: column;
+}
+
+.block img{
+    width: 17px;
+    height: 17px;
+    object-fit: cover;
+}
+
+.block p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.card_header button{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #F18700;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #F18700;
+}
+
+.image_path{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.image_path img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.card_header button:hover{
+    background-color: #F18700;
+    border: 1px solid #F18700;
+    font-weight: bold;
+    color: #fff;
+}
