@@ -1,0 +1,17 @@
+.Path{
+    margin-top: 100px;
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Path p {
+    color: #0097DA;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.Path .Asap{
+    color: #B2B2B2;
+}
