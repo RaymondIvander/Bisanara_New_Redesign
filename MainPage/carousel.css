@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    max-width: 1180px;
+    position: relative;
+    overflow: hidden;
+    margin: 100px auto 0 ;
+    border-radius: 7px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 12s infinite;
+}
+
+img {
+    width: 100%;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(0);
+    }
+    38%{
+        transform: translateX(-100%);
+    }
+    66%{
+        transform: translateX(-100%);
+    }
+    71%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+

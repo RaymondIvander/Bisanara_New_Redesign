@@ -1,0 +1,45 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-evenly;
+    border-top:4px solid #F5F6F6;
+}
+
+.bisanara a{
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+.bisanara a:hover{
+    color: black;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content:space-evenly;
+    align-items:baseline;
+}
+
+.produkbantuan a{
+    text-decoration: none;
+    color:#5b5b5b;
+}
+
+.produkbantuan a:hover{
+    color: black;
+}
+
+.right-container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.right-container img{
+    width: 50%;
+}

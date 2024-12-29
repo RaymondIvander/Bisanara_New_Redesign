@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BISANARA - HomePage</title>
+    <link rel="stylesheet" href="/Full_Function/Header.css">
+    <link rel="stylesheet" href="/MainPage/carousel.css">
+    <link rel="stylesheet" href="/Full_Function/login.css">
+    <link rel="stylesheet" href="/MainPage/body1.css">
+    <link rel="stylesheet" href="/MainPage/body2.css">
+    <link rel="stylesheet" href="/MainPage/body3.css">
+    <link rel="stylesheet" href="/Full_Function/footer.css">
+</head>
+
+<style>
+    *::-webkit-scrollbar{
+        display: none;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <!-- Header & Carousel Image -->
+    <div class="header">
+        <div class="logo">
+            <a href="/mainPage.html">
+                <img src="/Assets/slide_2-removebg-preview.png" alt="logoBisanara">
+            </a>
+        </div>
+        <div class="label"><div class="textWrapper">Search</div></div>
+        <div class="searchBar">
+            <img src="/Assets/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector-removebg-preview.png" alt="icon" class="icon">
+            <input type="search" placeholder="Cari di BISANARA">
+        </div>
+        <button class="loginButton" id="loginButton"><div class="text-wrapper">LOGIN</div></button>
+    </div>
+
+    <!-- Carousel -->
+    <div class="container">
+        <div class="wrapper">
+            <img src="/Assets/slide 2.png" alt="logoBisanara">
+            <img src="/Assets/slide_1.jpg" alt="informationBisanara">
+            <img src="/Assets/slide 2.png" alt="logoBisanara2">
+        </div>
+    </div>
+
+    <!-- POPUP LOGIN -->
+    <div class="overlay" id="overlay"></div>
+    <div class="popup-login" id="popupLogin">
+        <div class="popup-header">
+            <h2 class="header-title">Masuk</h2>
+            <p class="student-only">Binusian Student Only</p>
+            <a href="/MainPage/mainPage.html" class="close-btn">
+                <img src="/Assets/pngtree-vector-cross-icon-png-image_925896-removebg-preview.png" alt="close">
+            </a>
+        </div>
+        <div class="popup-body">
+            <label for="username">Binusian Email</label>
+            <input type="text" id="username" placeholder="Masukkan email">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Masukkan password">
+        </div>
+        <div class="popup-footer">
+            <button id="submitLogin">Login</button>
+        </div>
+    </div>
+
+    <!-- Body1 -->
+    <div class="body1">
+        <div class="header_body1">
+            <h1>Kategori Pilihan</h1>
+            <a href="#">Lihat Semua</a>
+        </div>
+        <div class="inner_body1">
+            <div class="inner_body1">
+                <div class="body1_carousel">
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                    <div class="category">
+                        <a href="#"><img src="/Assets/pngimg.com - pancake_PNG120.png" alt="category">Makanan Ringan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_inner_body1">
+                <div class="button_body1">
+                    <button style="border: 1px solid #0097DA;" ><div class="text-wrapper">Technology & Communication</div></button>
+                    <button style="border: 1px solid #F18700;"><div class="text-wrapper">Fashion</div></button>
+                    <button style="border: 1px solid #0097DA;"><div class="text-wrapper">Food & Beverages</div></button>
+                    <button style="border: 1px solid #F18700;">
+                        <div class="text-wrapper">Art & Decoration</div></button>
+                    <button style="border: 1px solid #0097DA;">
+                        <div class="text-wrapper">Female Accessories</div></button>
+                    <button style="border: 1px solid #F18700;">
+                        <div class="text-wrapper">Services</div></button>
+                    <button style="border: 1px solid #0097DA;">
+                        <div class="text-wrapper">Pets</div></button>
+                    <button style="border: 1px solid #F18700;"><div class="text-wrapper">Male Accessories</div></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Body2 -->
+    <div class="Body2">
+        <div class="static-section">
+            <h2>MOST VIEWED</h2>
+        </div>
+        <div class="slider-section">
+            <button class="prev-btn">&lt;</button>
+            <div class="slider">
+                <div class="slides">
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="PetCare">
+                        <h3>PetCare</h3>
+                        <p>Rp 0,00 <span class="highlight">Hubungi Penjual</span></p>
+                        <p class="info">⭐ 5.0 | 356 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="Sunset Ayam Rica-rica">
+                        <h3>Sunset Ayam Rica-rica</h3>
+                        <p>Rp 15.000</p>
+                        <p class="info">⭐ 4.9 | 120 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="Cinnamon Sugar Twist">
+                        <h3>Cinnamon Sugar Twist</h3>
+                        <p>Rp 12.000</p>
+                        <p class="info">⭐ 5.0 | 111 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                    <div class="card">
+                        <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                        <h3>MacBites Original</h3>
+                        <p>Rp 18.000</p>
+                        <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                    </div>
+                </div>
+            </div>
+            <button class="next-btn">&gt;</button>
+        </div>
+    </div>
+
+    <div class="line_border"></div>
+
+    <!-- Body3 -->
+    <div class="Body3">
+        <div class="body3_header">
+            <h1>All Product</h1>
+        </div>
+
+        <div class="body_product">
+            <div class="body_product_row_1">
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+            </div>
+            <div class="body_product_row_1">
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+                <div class="card1">
+                    <img src="/Assets/pngimg.com - pancake_PNG120.png" alt="MacBites Original">
+                    <h3>MacBites Original</h3>
+                    <p>Rp 18.000</p>
+                    <p class="info">⭐ 5.0 | 235 Dilihat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="left-container">
+            <div class="bisanara">
+                <h3>Bisanara</h3>
+                <p><a href="">Tentang Bisanara</a></p>
+                <p><a href="">Hak Kekayaan Intelektual</a></p>
+                <p><a href="">Kontributor</a></p>
+                <p><a href="">Batasan Tangung Jawab</a></p>
+            </div>
+            <div class="produkbantuan">
+                <h3>Produk</h3>
+                <p><a href="">Produk</a></p>
+                <p><a href="">Kategori</a></p>
+                <h3>Bantuan dan Panduan</h3>
+                <p><a href="">Bantuan</a></p>
+                <p><a href="">Kebijakan Privasi</a></p>
+            </div>
+        </div>
+        <div class="right-container">
+            <img src="/Assets/slide 2.png" alt="logoBisanara">
+        </div>
+    </footer>
+    
+</body>
+<script src="/Full_Function/login.js"></script>
+<script src="/MainPage/slider.js"></script>
+</html>

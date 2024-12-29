@@ -1,0 +1,91 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    justify-content: center;
+    padding: 10px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.logo img{
+    width: 170px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.header .logo, .header .label , .header .searchBar{
+    display: flex;
+    align-items: center;
+}
+
+.header .label{
+    width: auto;
+    height: 19px;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.header .textwrapper{
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.searchBar{
+    flex-grow: 1;
+    max-width: 863px;
+    position: relative;
+}
+
+.searchBar img{
+    position: absolute;
+    left: 10px;
+    width: 36px;
+    pointer-events: none;
+    margin-top: 5px;
+}
+
+.searchBar input{
+    width: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.searchBar input:focus{
+    border-color: #0097DA;
+}
+
+.loginButton{
+    position: relative;
+    width: 118px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid #0097DA;
+    background-color: #ffff;
+    margin: 5px 0 0 100px;
+}
+
+.loginButton .text-wrapper{
+    font-size: 13px;
+    color: #0097DA;
+    font-weight: 600;
+}
+
+.loginButton:hover{
+    border: 1px solid #0097DA;
+    background-color: #0097DA;
+}
+
+.loginButton:hover .text-wrapper{
+    color: white;
+}
+

@@ -1,0 +1,83 @@
+.body1{
+    width: 100%;
+    max-width: 1180px;
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0, 5%) ;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.header_body1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: left;
+}
+
+.header_body1 a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0097DA;
+    font-weight: bold;
+}
+
+.header_body1 a:hover{
+    color: #006D9D;
+}
+
+.body1_carousel{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.category{
+    border: 1px solid rgb(0, 0, 0, 15%) ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 120px;
+}
+
+.category:hover{
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+
+.category img{
+    width: 80px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.category a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+.button_body1{
+    margin-top: 20px;
+    display: flex;
+    gap: 18px;
+}
+
+.button_body1 button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+.button_body1 .text-wrapper{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button_body1 button:hover{
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+    cursor: pointer;
+}

@@ -1,0 +1,131 @@
+.Body2 {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1180px;
+}
+
+.static-section {
+    background-color: #007bff; 
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 306px; 
+    height: 360px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-section {
+    width: calc(100% - 306px);
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 10px 10px 0;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Tambahkan ini */
+}
+
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 225px;
+    height: 290px; 
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, 25%);
+}
+
+.card img {
+    width: 100%;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.card .highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.card p{
+    color: black;
+    font-weight: bold;
+}
+
+.card .info {
+    font-size: 14px;
+    color: gray;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.Body2:hover .prev-btn, 
+.Body2:hover .next-btn {
+    opacity: 1; 
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.line_border {
+    width: 1440px; 
+    height: 10px; 
+    background-color: #F5F6F6; 
+    margin: 20px auto; 
+}
+
+button.disabled {
+    display: none;
+    cursor: not-allowed;
+}
+
+
+
