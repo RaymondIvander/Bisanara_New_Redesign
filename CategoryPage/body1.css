@@ -35,6 +35,7 @@
 .card img{
     height: 145px;
     object-fit: cover;
+    max-width: 200px;
 }
 
 .card p{ 
